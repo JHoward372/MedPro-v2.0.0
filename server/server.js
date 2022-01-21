@@ -1,9 +1,10 @@
-const express = require("express")
+const express = require("express");
 
 
 
-const app = express()
+const app = express();
 
-app.listen(3003, () => {
-    console.log("Ready to rock on port 3003")
+const port = 3003;
+app.listen(port, () => {
+    console.log(`Ready to rock on ${port}`)
 });
